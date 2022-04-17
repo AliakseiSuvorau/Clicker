@@ -2,6 +2,7 @@ How to install:
 
 ```bash
 $ git clone https://github.com/AliakseiSuvorau/Clicker.git
+$ cd Clicker
 $ sudo apt-get install python3-tk
 $ python3 main.py
 ```

@@ -79,7 +79,7 @@ count_coins = 0
 plus_point = 1
 needed_for_x2 = 10
 auto_click_bool = 0
-needed_for_auto_click = 1
+needed_for_auto_click = 50
 d_time = 5000
 
 high_score_lbl = tk.Label(window, text="Highest score: " + highest_score, bg="white", font=("Times New Roman", 20), width=25)
@@ -102,7 +102,7 @@ img_auto_click = tk.PhotoImage(file="images/img_auto_click.png")
 auto_click_btn = tk.Button(window, image=img_auto_click)
 auto_click_btn.place(x=0, y=180)
 
-lbl_needed_for_auto_click = tk.Label(window, text="100", width=4, height=1, bg="white", font=("Times New Roman", 30, "bold"))
+lbl_needed_for_auto_click = tk.Label(window, text="50", width=4, height=1, bg="white", font=("Times New Roman", 30, "bold"))
 lbl_needed_for_auto_click.place(x=0, y=130)
 
 window.bind("<space>", inc_score)
