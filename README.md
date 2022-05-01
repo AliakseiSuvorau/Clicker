@@ -2,8 +2,9 @@
 First, read the requirements for this project. Then continue with this plan:
 ```bash
 	$ git clone https://github.com/AliakseiSuvorau/Clicker.git
+	$ cd Clicker
 	$ pip install -r requirements.txt
-	$ cd Clicker/src
+	$ cd src
 	$ python3 main.py
 ```
 
