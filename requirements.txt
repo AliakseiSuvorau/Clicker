@@ -1,0 +1,10 @@
+To download this project you need git to be installed:
+	$ apt update
+	$ apt -y install git
+To run the project you need to install:
+	$ apt -y install python3-pip
+To play you need next libraries to be installed:
+1) PyGame
+	$ pip install pygame
+2) TKinter
+	$apt-get -y install python3-tk
